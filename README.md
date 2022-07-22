@@ -1,3 +1,3 @@
-# angular-v6dpng-hfdsev
+# angular exercise
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-v6dpng-hfdsev)
+[Preview on StackBlitz ⚡️](https://stackblitz.com/edit/angular-v6dpng-hfdsev)
