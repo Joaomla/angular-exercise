@@ -8,24 +8,41 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Lesser Health Potion',
+    price: 100,
+    description: 'A potion that recovers 50 HP.',
   },
   {
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Medium Health Potion',
+    price: 300,
+    description: 'A potion that recovers 200 HP.',
   },
   {
     id: 3,
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
-  }
+    name: 'Large Health Potion',
+    price: 900,
+    description: 'A potion that recovers 800 HP.',
+  },
+  {
+    id: 4,
+    name: 'Black Enhancing Stone',
+    price: 1500,
+    description: '',
+  },
+  {
+    id: 5,
+    name: 'White Enhancing Stone',
+    price: 1500,
+    description: '',
+  },
+  {
+    id: 6,
+    name: 'Clear Enhancing Stone',
+    price: 2000,
+    description: 'A misterious enhancing stone.',
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
