@@ -11,6 +11,8 @@
 
   <p *ngIf="product.description">Description: {{ product.description }}</p>
 
+  <p> <img src='../assets/bush.png' alt='image'> </p>
+
   <button type="button" (click)="share()">Share</button>
 
   <app-products-alerts [product]="product" (notify)="onNotify()"> </app-products-alerts>
