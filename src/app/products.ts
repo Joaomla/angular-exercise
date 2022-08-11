@@ -25,6 +25,7 @@ export const products = [
     name: 'Large Health Potion',
     price: 900,
     description: 'A potion that recovers 800 HP.',
+    image_src: "../assets/large_health_potion.png",
   },
   {
     id: 4,
