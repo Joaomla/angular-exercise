@@ -11,7 +11,7 @@
 
   <p *ngIf="product.description">Description: {{ product.description }}</p>
 
-  <p> <img src='../assets/bush.png' alt='image'> </p>
+  <p *ngIf="product.image_src"> <img src = "{{ product.image_src }}" alt='image'> </p>
 
   <button type="button" (click)="share()">Share</button>
 
