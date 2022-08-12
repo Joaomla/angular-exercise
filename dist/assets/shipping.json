@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Overnight Witch Delivery",
+    "price": 25.99
+  },
+  {
+    "type": "2-Day Ogre Delivery",
+    "price": 9.99
+  },
+  {
+    "type": "Squirrel (might take up to two weeks)",
+    "price": 2.99
+  }
+]
