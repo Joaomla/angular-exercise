@@ -32,18 +32,21 @@ export const products = [
     name: 'Black Enhancing Stone',
     price: 1500,
     description: '',
+    image_src: "assets/black_enhancing_stone.png",
   },
   {
     id: 5,
     name: 'White Enhancing Stone',
     price: 1500,
     description: '',
+    image_src: "assets/white_enhancing_stone.png",
   },
   {
     id: 6,
     name: 'Clear Enhancing Stone',
     price: 2000,
     description: 'A misterious enhancing stone.',
+    image_src: "assets/clear_enhancing_stone.png",
   },
 ];
 

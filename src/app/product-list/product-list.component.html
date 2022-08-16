@@ -1,7 +1,10 @@
 <h2>Products</h2>
 
 <div *ngFor="let product of products">
-  <h3>
+
+  <p *ngIf="product.image_src"> <img src = "{{ product.image_src }}" alt='image' width ="100px" height="100px" style="margin-left: auto; margin-right:auto; display:block;"> </p>
+
+  <h3 style="text-align: center;">
     <a
     [title]="product.name + ' details'"
     [routerLink]="['/products', product.id]">
@@ -9,13 +12,12 @@
     </a>
   </h3>
 
-  <p *ngIf="product.description">Description: {{ product.description }}</p>
-
-  <p *ngIf="product.image_src"> <img src = "{{ product.image_src }}" alt='image'> </p>
+  <p *ngIf="product.description" style="text-align: center;">Description: {{ product.description }}</p>
 
   <button type="button" (click)="share()">Share</button>
 
   <app-products-alerts [product]="product" (notify)="onNotify()"> </app-products-alerts>
+
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
