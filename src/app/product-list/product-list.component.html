@@ -3,7 +3,7 @@
 <div *ngFor="let product of products">
 
   <a
-    [title]="product.name + ' details'"
+    title="product.name + ' details'"
     [routerLink]="['/products', product.id]">
     <p *ngIf="product.image_src"> <img src = "{{ product.image_src }}" alt='image' width ="100px" height="100px" style="margin-left: auto; margin-right:auto; display:block;"> </p>
   </a>
